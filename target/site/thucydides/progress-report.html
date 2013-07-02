@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Requirements</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/core.css"/>
+    <link rel="stylesheet" type="text/css" href="jqplot/jquery.jqplot.min.css"/>
+    <style type="text/css">a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+    </style>
+
+
+    <!--[if IE]>
+    <script language="javascript" type="text/javascript" src="jit/Extras/excanvas.js"></script><![endif]-->
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="datatables/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="scripts/dygraph-combined.js"></script>
+
+
+    <link type="text/css" href="jqueryui/css/start/jquery-ui-1.8.18.custom.css" rel="Stylesheet" />
+    <script type="text/javascript" src="jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+
+    <style type="text/css" media="screen">
+        .dataTables_info { padding-top: 0; }
+        .dataTables_paginate { padding-top: 0; }
+        .css_right { float: right; }
+    </style>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+    </div>
+</div>
+
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > Requirements </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Test Results</a></li>
+            <li><a href="capabilities.html">Requirements</a></li>
+            <li><a href="progress-report.html" class="current">Progress</a></li>
+                <li><a href="efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html">Features</a></li>
+                <li><a href="3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html">Stories</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+        <br style="clear:left"/>
+    </div>
+
+    <div class="clr"></div>
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <div id="progress-graph"></div>
+                <script type="text/javascript">
+                    g = new Dygraph(
+                            document.getElementById("progress-graph"),
+                            "Build,Requirements,Passed,Failed,Estimated,Total\n" +
+                                "2013/07/01 07:39:03, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/01 10:40:24, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/01 10:45:02, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/01 10:46:04, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/01 10:54:44, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/01 11:42:44, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/01 11:45:54, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/01 11:54:59, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:00:16, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:10:29, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:15:55, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:25:51, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:28:53, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:30:07, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:31:06, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:41:42, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:44:41, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 12:45:49, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:00:31, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:04:03, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:04:59, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:13:00, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:21:29, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:31:01, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:32:21, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:32:23, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:38:00, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:38:02, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:41:42, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:43:13, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:49:09, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 01:56:16, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 02:04:40, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 02:06:12, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 02:29:30, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 10:37:34, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 10:48:14, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 10:58:56, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:12:32, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:13:23, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:17:50, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:19:18, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:20:06, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:20:30, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:22:01, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:39:54, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:40:52, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:05:22, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:11:44, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:19:16, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:20:20, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:20:55, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:53:49, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:56:38, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 04:58:48, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 05:04:39, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 05:16:40, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 05:19:14, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 05:19:59, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 05:20:34, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 10:14:32, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 10:20:30, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:33:26, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:34:19, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:37:13, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:45:42, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/02 11:48:53, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/03 12:01:57, 0, 0, 0, 0, 0\n" +
+                                                            "2013/07/03 12:03:18, 0, 0, 0, 0, 0\n"
+                            ,
+                            { fillGraph: true,
+                                width: 640,
+                                height: 480,
+                                title: 'Project Progress (Requirements)',
+                                titleHeight: 32,
+                                colors: ['#ffda4b', 'green', '#EE1111','#bccb8e', '#00aeff'],
+                                legend: 'always',
+                                drawAxesAtZero: true,
+                                includeZero: true,
+
+                                'Estimated': {
+                                    fillGraph: false
+                                },
+                                'Total': {
+                                    fillGraph: false
+                                }
+                            }
+                    );
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

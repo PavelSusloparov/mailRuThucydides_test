@@ -1,0 +1,36 @@
+<acceptance-test-run title="Simple mail login negative" name="SimpleMailLoginNegative" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="6264">
+  <user-story id="mailRu.requirements.Application.Search.MailRuLoginForm" name="Mail ru login form" path="mailRu.requirements.Application.Search">
+    <feature id="mailRu.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Mail ru login form" type="story"/>
+    <tag name="Search" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1567">
+    <screenshots>
+      <screenshot image="screenshot-48b53ea8d742cd31cd8b1a835f4dde3642f99cd8efcfa14e2a83338134a05b6412.png"/>
+      <screenshot image="screenshot-48b53ea8d742cd31cd8b1a835f4dde3642f99cd8efcfa14e2a83338134a05b6413.png"/>
+    </screenshots>
+    <description>Go to url</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="887">
+    <screenshots>
+      <screenshot image="screenshot-e4ac457b98971cf021d7f2a785a6b8d563d9cac609579198dc2008159f7e993a14.png"/>
+      <screenshot image="screenshot-e4ac457b98971cf021d7f2a785a6b8d563d9cac609579198dc2008159f7e993a15.png"/>
+    </screenshots>
+    <description>Check domains: {[@mail.ru, @inbox.ru, @list.ru, @bk.ru]}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3341">
+    <screenshots>
+      <screenshot image="screenshot-43ff2a1253247e48787a443815aaf266b18adaf0060ab2177b6656465b704e1216.png"/>
+      <screenshot image="screenshot-43ff2a1253247e48787a443815aaf266b18adaf0060ab2177b6656465b704e1217.png"/>
+    </screenshots>
+    <description>Login: {error, @inbox.ru, PSUSLOPAROV1test}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="405">
+    <screenshots>
+      <screenshot image="screenshot-afd105c9ec2ce2bfc9dea5cd44eea3363fd17f7bfb9498165fe6d91a00908f6f18.png"/>
+    </screenshots>
+    <description>Is logged in: {false}</description>
+  </test-step>
+</acceptance-test-run>

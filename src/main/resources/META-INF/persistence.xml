@@ -1,0 +1,22 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"       
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"       
+        xsi:schemaLocation="http://java.sun.com/xml/ns/persistence       
+        http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"       
+        version="1.0">       
+
+    <persistence-unit name="EmployeeService" transaction-type="RESOURCE_LOCAL">   
+        <!-- Provider specification -->
+        <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+
+        <class>com.mycompany.simpleentity.Employee</class>       
+        <properties>       
+            <property name="javax.persistence.jdbc.driver"       
+                      value="org.postgresql.Driver"/>       
+            <property name="javax.persistence.jdbc.url"       
+                      value="jdbc:postgresql://localhost:5432/testdb;create=true"/>       
+            <property name="javax.persistence.jdbc.user" value="postgres"/>       
+            <property name="javax.persistence.jdbc.password" value="111"/>       
+
+        </properties>       
+    </persistence-unit>       
+</persistence> 

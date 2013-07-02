@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+    </div>
+</div>
+
+    
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="4a7fd0dc50934573f1a10189ed6a15fef73fae922bad8ef0b34a0774c2a51b04.html">Simple mail login positive</a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html" class="current">Test Results</a></li>
+            <li><a href="capabilities.html">Requirements</a></li>
+            <li><a href="progress-report.html">Progress</a></li>
+            <li><a href="efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html">Features</a></li>
+            <li><a href="3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html">Stories</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+        <br style="clear:left"/>
+    </div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Simple mail login positive<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">19.22s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="2a324b384c5a88324de148a70d5bafb571b23a26db9993da7d64162095e76a02.html">Mail ru login form (story)</a>
+                        <a class="tagLink" href="104e86778c61b4270a19fa6dd7f05671eb0be10515a3780f86ccead031b4bc17.html">Search (feature)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="screenshot-06709b16482d454b6f5df0b29e5c1cabbd69321036dc78692c297320815be9501.png" alt="" title="Go to url" width="980"/>
+                <img src="screenshot-39b35ab90158ca7205fd405843c4928dfd7803a605eb2c08d82ed677b62fa3b02.png" alt="" title="Check domains: {[@mail.ru, @inbox.ru, @list.ru, @bk.ru]}" width="980"/>
+                <img src="screenshot-39b35ab90158ca7205fd405843c4928dfd7803a605eb2c08d82ed677b62fa3b03.png" alt="" title="Check domains: {[@mail.ru, @inbox.ru, @list.ru, @bk.ru]}" width="980"/>
+                <img src="screenshot-cff2aa483fb1964f077a3cced3d22138900f6002aec04607f6b1267638ba738d4.png" alt="" title="Login: {psusloparov_test, @inbox.ru, PSUSLOPAROV1test}" width="980"/>
+                <img src="screenshot-cff2aa483fb1964f077a3cced3d22138900f6002aec04607f6b1267638ba738d5.png" alt="" title="Login: {psusloparov_test, @inbox.ru, PSUSLOPAROV1test}" width="975"/>
+                <img src="screenshot-ab2bbce2d55816e0e599895e8613494545df8944b6d495d6095262b563d409a16.png" alt="" title="Is logged in: {true}" width="975"/>
+                <img src="screenshot-89999db19b852da79339f7fb3a48617e69cb5d50f320d79d1030ba56ed59cab78.png" alt="" title="Logout" width="975"/>
+                <img src="screenshot-89999db19b852da79339f7fb3a48617e69cb5d50f320d79d1030ba56ed59cab79.png" alt="" title="Logout" width="980"/>
+                <img src="screenshot-d535cdea155ff65e3003806c5929eb6a2665bfabd63802b2f67539597ba5744d10.png" alt="" title="Is logged out" width="980"/>
+                <img src="screenshot-d535cdea155ff65e3003806c5929eb6a2665bfabd63802b2f67539597ba5744d11.png" alt="" title="Is logged out" width="980"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

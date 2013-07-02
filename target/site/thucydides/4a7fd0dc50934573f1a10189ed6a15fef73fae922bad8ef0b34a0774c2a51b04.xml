@@ -1,0 +1,49 @@
+<acceptance-test-run title="Simple mail login positive" name="SimpleMailLoginPositive" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="19219">
+  <user-story id="mailRu.requirements.Application.Search.MailRuLoginForm" name="Mail ru login form" path="mailRu.requirements.Application.Search">
+    <feature id="mailRu.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Mail ru login form" type="story"/>
+    <tag name="Search" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="8073">
+    <screenshots>
+      <screenshot image="screenshot-06709b16482d454b6f5df0b29e5c1cabbd69321036dc78692c297320815be9501.png"/>
+    </screenshots>
+    <description>Go to url</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="967">
+    <screenshots>
+      <screenshot image="screenshot-39b35ab90158ca7205fd405843c4928dfd7803a605eb2c08d82ed677b62fa3b02.png"/>
+      <screenshot image="screenshot-39b35ab90158ca7205fd405843c4928dfd7803a605eb2c08d82ed677b62fa3b03.png"/>
+    </screenshots>
+    <description>Check domains: {[@mail.ru, @inbox.ru, @list.ru, @bk.ru]}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7591">
+    <screenshots>
+      <screenshot image="screenshot-cff2aa483fb1964f077a3cced3d22138900f6002aec04607f6b1267638ba738d4.png"/>
+      <screenshot image="screenshot-cff2aa483fb1964f077a3cced3d22138900f6002aec04607f6b1267638ba738d5.png"/>
+    </screenshots>
+    <description>Login: {psusloparov_test, @inbox.ru, PSUSLOPAROV1test}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="290">
+    <screenshots>
+      <screenshot image="screenshot-ab2bbce2d55816e0e599895e8613494545df8944b6d495d6095262b563d409a16.png"/>
+    </screenshots>
+    <description>Is logged in: {true}</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1412">
+    <screenshots>
+      <screenshot image="screenshot-89999db19b852da79339f7fb3a48617e69cb5d50f320d79d1030ba56ed59cab78.png"/>
+      <screenshot image="screenshot-89999db19b852da79339f7fb3a48617e69cb5d50f320d79d1030ba56ed59cab79.png"/>
+    </screenshots>
+    <description>Logout</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="857">
+    <screenshots>
+      <screenshot image="screenshot-d535cdea155ff65e3003806c5929eb6a2665bfabd63802b2f67539597ba5744d10.png"/>
+      <screenshot image="screenshot-d535cdea155ff65e3003806c5929eb6a2665bfabd63802b2f67539597ba5744d11.png"/>
+    </screenshots>
+    <description>Is logged out</description>
+  </test-step>
+</acceptance-test-run>
